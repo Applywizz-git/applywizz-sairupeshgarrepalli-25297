@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaEnvelope, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaHeart } from 'react-icons/fa';
 import { HiArrowUp } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import { useState, useEffect } from 'react';
 
 const socialLinks = [
-  { icon: FaLinkedin, href: 'https://www.linkedin.com/portfolio/', label: 'LinkedIn' },
+
   { icon: FaEnvelope, href: 'mailto:gsairupesh27@gmail.com', label: 'Email' },
 ];
 

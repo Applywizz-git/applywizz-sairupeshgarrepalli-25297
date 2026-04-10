@@ -1,12 +1,12 @@
 import { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { HiMail, HiUser, HiChat, HiPaperAirplane, HiCheckCircle, HiLocationMarker } from 'react-icons/hi';
-import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 import confetti from 'canvas-confetti';
 import { toast } from 'sonner';
 
 const socialLinks = [
-  { icon: FaLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/portfolio/' },
+
   { icon: FaEnvelope, label: 'Email', href: 'mailto:gsairupesh27@gmail.com' },
   { icon: FaPhone, label: '+1 (314) 390-9906', href: 'tel:+13143909906' },
   { icon: HiLocationMarker, label: 'Springfield, MO', href: '#' },
