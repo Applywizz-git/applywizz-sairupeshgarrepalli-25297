@@ -35,11 +35,11 @@ const EducationSection = () => {
           </p>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+        <div className="max-w-3xl mx-auto flex flex-col items-center">
           {education.map((edu, index) => (
             <motion.div
               key={edu.degree}
-              className="glass rounded-2xl p-8 card-hover relative overflow-hidden"
+              className="glass rounded-2xl p-8 card-hover relative overflow-hidden w-full"
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 + index * 0.2 }}
