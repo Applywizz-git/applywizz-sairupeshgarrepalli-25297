@@ -33,6 +33,7 @@ import {
   HiShare,
   HiClipboardList,
   HiSearch,
+  HiCheckCircle,
 } from 'react-icons/hi';
 
 const skillCategories = [
