@@ -38,6 +38,7 @@ import {
 
 const skillCategories = [
   {
+
     title: 'Artificial Intelligence & Machine Learning',
     icon: HiLightningBolt,
     skills: [
@@ -187,7 +188,7 @@ const SkillsSection = () => {
     <section id="skills" className="section relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-gold-soft opacity-10" />
-      
+
       <div className="container mx-auto relative z-10" ref={ref}>
         <motion.div
           className="text-center mb-16"
