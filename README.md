@@ -1,4 +1,4 @@
-# Venkata Taraka Rama Rao Rudra - Data Analyst Portfolio
+# Sai rupesh garrepalli
 
 A visually striking, high-end portfolio website built with modern web technologies featuring cinematic motion, elegant typography, micro-interactions, and immersive animations.
 
