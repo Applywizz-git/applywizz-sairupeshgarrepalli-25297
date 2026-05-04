@@ -102,7 +102,7 @@ const HeroSection = () => {
               </Link>
 
               {/* Download Resume Button */}
-              <a href="/rupesh_resume.pdf" download="Rupesh_G_Resume.pdf">
+              <a href="/resume1.pdf" download="Rupesh_G_Resume.pdf">
                 <button className="px-6 py-3 bg-secondary text-white font-semibold rounded-full hover:bg-secondary/90 transition-all">
                   Download Resume
                 </button>
