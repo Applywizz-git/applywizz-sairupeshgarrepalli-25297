@@ -13,7 +13,7 @@ const highlights = [
 
 const counters = [
   { value: 15, suffix: '+', label: 'Projects' },
-  { value: 4, suffix: '+', label: 'Years Experience' },
+  { value: 5, suffix: '+', label: 'Years Experience' },
   { value: 38, suffix: '%', label: 'Accuracy Improvement' },
 ];
 
@@ -94,7 +94,7 @@ const AboutSection = () => {
               <div className="relative glass p-2 rounded-3xl overflow-hidden border border-primary/20 shadow-2xl">
                 <img 
                   src="/profile.png" 
-                  alt="Rupesh Garrepalli"
+                  alt="Rupesh G"
                   className="w-full h-auto rounded-2xl transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -122,7 +122,7 @@ const AboutSection = () => {
               className="space-y-6"
             >
               <p className="text-foreground/90 leading-relaxed text-lg">
-                As an AI/ML Engineer with 4 years of experience, I specialize in building <span className="text-primary font-semibold">enterprise machine learning</span> and Generative AI solutions. My expertise lies in developing Retrieval-Augmented Generation (RAG) and embeddings-based semantic search pipelines, improving knowledge discovery accuracy by up to <span className="text-primary font-semibold">38%</span>.
+                As an AI/ML Engineer with 5 years of experience, I specialize in building <span className="text-primary font-semibold">enterprise machine learning</span> and Generative AI solutions. My expertise lies in developing Retrieval-Augmented Generation (RAG) and embeddings-based semantic search pipelines, improving knowledge discovery accuracy by up to <span className="text-primary font-semibold">38%</span>.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 I have a proven track record of deploying cloud AI workloads using <span className="font-medium text-foreground">AWS SageMaker, Vertex AI, and Azure Machine Learning</span>. My technical toolkit includes <span className="font-medium text-foreground">LangChain, LlamaIndex, PyTorch, and Vector Databases (Pinecone, FAISS)</span>, with a strong focus on scalable ML lifecycle pipelines and MLOps automation.

@@ -58,9 +58,9 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 3.1 }}
             >
-              <span className="text-foreground">SAI RUPESH</span>
+              <span className="text-foreground">RUPESH</span>
               <br />
-              <span className="text-gradient-gold">GARREPALLI</span>
+              <span className="text-gradient-gold">G</span>
             </motion.h1>
 
             <motion.div
@@ -80,7 +80,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 3.3 }}
             >
-              AI/ML Engineer with 4 years of experience building enterprise machine learning and Generative AI solutions using Python, NLP, and Large Language Models supporting semantic retrieval and inference workflows processing 50K+ daily signals.
+              AI/ML Engineer with 5 years of experience building enterprise machine learning and Generative AI solutions using Python, NLP, and Large Language Models supporting semantic retrieval and inference workflows processing 50K+ daily operational signals.
             </motion.p>
 
             {/* View Projects and Download Resume Buttons */}
@@ -102,7 +102,7 @@ const HeroSection = () => {
               </Link>
 
               {/* Download Resume Button */}
-              <a href="/rupesh_resume.pdf" download="Rupesh_Garrepalli_Resume.pdf">
+              <a href="/rupesh_resume.pdf" download="Rupesh_G_Resume.pdf">
                 <button className="px-6 py-3 bg-secondary text-white font-semibold rounded-full hover:bg-secondary/90 transition-all">
                   Download Resume
                 </button>
@@ -143,7 +143,7 @@ const HeroSection = () => {
               >
                 <img 
                    src="/profile.png" 
-                  alt="Rupesh Garrepalli"
+                  alt="Rupesh G"
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -154,7 +154,7 @@ const HeroSection = () => {
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                <span className="text-sm font-semibold text-primary">4+ Years</span>
+                <span className="text-sm font-semibold text-primary">5+ Years</span>
               </motion.div>
               
               <motion.div

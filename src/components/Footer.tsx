@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaEnvelope, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaHeart, FaLinkedin } from 'react-icons/fa';
 import { HiArrowUp } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import { useState, useEffect } from 'react';
 
 const socialLinks = [
-
-  { icon: FaEnvelope, href: 'mailto:gsairupesh27@gmail.com', label: 'Email' },
+  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/rupesh417/', label: 'LinkedIn' },
+  { icon: FaEnvelope, href: 'mailto:g.rupesh0408@gmail.com', label: 'Email' },
 ];
 
 const Footer = () => {
@@ -40,7 +40,7 @@ const Footer = () => {
                 RG
               </h3>
               <p className="text-muted-foreground text-sm">
-                RUPESH GARREPALLI
+                RUPESH G
               </p>
             </motion.div>
 

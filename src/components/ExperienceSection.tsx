@@ -5,27 +5,57 @@ import { SiPython } from 'react-icons/si';
 
 const experiences = [
   {
+    title: 'AI/ML Engineer (Virtual Job Simulation)',
+    company: 'BCG',
+    location: 'Remote',
+    period: 'Apr 2026',
+    bullets: [
+      'Developed AI-powered financial chatbot workflows using Python and Pandas enabling structured extraction of 10-K and 10-Q filings supporting automated financial insight generation across analyst workflows.',
+      'Implemented embeddings-driven semantic retrieval pipelines using OpenAI API and FAISS improving response grounding accuracy by 35% across financial document query scenarios.',
+      'Constructed rule-based prompt engineering logic using Large Language Models improving interpretability of financial disclosure summaries across multi-section regulatory datasets.',
+      'Engineered document preprocessing pipelines using Pandas enabling normalization of 10-K and 10-Q datasets supporting downstream chatbot inference readiness.',
+      'Evaluated chatbot response quality using model evaluation workflows improving financial answer relevance consistency by 28% across simulated document question-answering scenarios.',
+      'Collaborated with consulting stakeholders to translate LLM-generated outputs into user-friendly financial summaries supporting decision-support interpretation workflows.'
+    ],
+    technologies: ['Python', 'Pandas', 'OpenAI API', 'FAISS', 'LLMs'],
+  },
+  {
+    title: 'Data Scientist (Virtual Job Simulation)',
+    company: 'British Airways',
+    location: 'Remote',
+    period: 'Apr 2026',
+    bullets: [
+      'Engineered customer review preprocessing workflows using Python and Pandas enabling structured transformation of 12K+ airline feedback records supporting downstream behavioral modeling readiness.',
+      'Performed exploratory data analysis using NumPy, Matplotlib, and Seaborn identifying satisfaction drivers influencing Heathrow Terminal 3 lounge eligibility segmentation workflows.',
+      'Refined customer buying-behavior prediction pipelines using Scikit-learn improving classification accuracy by 26% and strengthening precision-recall performance across simulated airline engagement segmentation workflows.',
+      'Constructed feature engineering pipelines using Pandas enabling structured encoding of travel attributes supporting model training readiness across passenger eligibility datasets.',
+      'Evaluated predictive model performance using Scikit-learn model evaluation metrics improving interpretability of buying-propensity signals across simulated airline analytics workflows.',
+      'Collaborated with analytics stakeholders to translate model outputs into operational segmentation insights supporting data-driven lounge eligibility decision workflows across passenger datasets.'
+    ],
+    technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn'],
+  },
+  {
     title: 'AI/ML Engineer',
-    company: 'TCS',
+    company: 'CVS',
     location: 'USA (Remote)',
     period: 'May 2024 - Present',
     bullets: [
-      'Engineered enterprise-scale feature engineering pipelines using Python, Pandas, and PostgreSQL enabling structured transformation of 50K+ daily operational signals supporting predictive intelligence services.',
-      'Developed supervised anomaly detection models using Scikit-learn improving alert prioritization accuracy by 29% across enterprise monitoring analytics workflows supporting platform reliability teams.',
-      'Implemented embeddings-driven semantic retrieval services using HuggingFace Transformers and FAISS enabling contextual enterprise knowledge discovery across structured and unstructured operational datasets.',
-      'Operationalized batch inference pipelines using Airflow and Docker enabling automated nightly model scoring across distributed enterprise analytics environments improving scoring reproducibility.',
-      'Standardized experiment tracking workflows using MLflow improving lifecycle visibility across multi-team enterprise ML deployment environments.',
-      'Optimized feature transformation pipelines using NumPy with Matplotlib and Seaborn validation improving dataset preparation throughput by 34% across enterprise training data readiness workflows.',
-      'Built and owned RAG-based pipelines using FAISS improving enterprise knowledge retrieval accuracy by 15% across distributed semantic search workloads.',
-      'Developed LLM-powered inference workflows using OpenAI and Azure OpenAI reducing enterprise query resolution time by 30% across internal analytics support platforms.',
+      'Engineered healthcare clinical feature engineering pipelines using Python, Pandas, and PostgreSQL enabling structured transformation of 60K+ daily patient interaction signals supporting downstream predictive analytics workflows.',
+      'Developed supervised classification models using Scikit-learn improving patient-risk alert prioritization accuracy by 27% across care-management decision support pipelines.',
+      'Implemented embeddings-driven semantic retrieval workflows using HuggingFace Transformers and FAISS enabling contextual discovery across clinical guideline and claims documentation datasets.',
+      'Operationalized batch inference pipelines using Airflow and Docker enabling automated nightly scoring across distributed healthcare analytics environments improving scoring reproducibility.',
+      'Standardized experiment tracking workflows using MLflow improving lifecycle traceability across multi-team healthcare ML deployment environments.',
+      'Optimized feature transformation pipelines using NumPy with Matplotlib and Seaborn validation improving dataset preparation throughput by 32% across clinical training data workflows.',
+      'Built Retrieval-Augmented Generation pipelines using FAISS improving healthcare knowledge retrieval accuracy by 16% across provider decision-support search workloads.',
+      'Developed LLM-powered inference workflows using OpenAI API and Azure OpenAI reducing internal query resolution time by 28% and improving inference response latency across analytics support platforms.'
     ],
-    technologies: ['Python', 'Pandas', 'PostgreSQL', 'Scikit-learn', 'HuggingFace', 'FAISS', 'Airflow', 'Docker', 'MLflow', 'OpenAI', 'Azure OpenAI'],
+    technologies: ['Python', 'Pandas', 'PostgreSQL', 'Scikit-learn', 'HuggingFace', 'FAISS', 'Airflow', 'Docker', 'MLflow', 'OpenAI API', 'Azure OpenAI', 'NumPy', 'Matplotlib', 'Seaborn'],
   },
   {
     title: 'Applied AI Engineer',
     company: 'EdgeVerve',
     location: 'Bangalore, India',
-    period: 'Jan 2021 - Jan 2023',
+    period: 'June 2022 - Jan 2023',
     bullets: [
       'Engineered NLP-driven semantic extraction pipelines using HuggingFace Transformers, TensorFlow tokenization utilities, and Python reducing manual reconciliation validation effort by 41% across enterprise transaction processing workflows.',
       'Implemented vector similarity indexing architectures using FAISS enabling contextual retrieval across reconciliation document repositories improving entity-matching accuracy across audit intelligence systems.',
@@ -34,10 +64,27 @@ const experiences = [
       'Operationalized experiment tracking pipelines using MLflow improving lifecycle traceability across supervised learning model iterations supporting compliance analytics governance workflows.',
       'Containerized transformer inference services using Docker improving runtime portability across distributed reconciliation automation microservices environments.',
       'Enhanced embedding quality through tokenization tuning strategies improving semantic entity resolution accuracy across enterprise validation workflows.',
-      'Validated model evaluation outputs in collaboration with compliance analytics teams improving explainability confidence across automated reconciliation intelligence pipelines.',
+      'Validated model evaluation outputs in collaboration with compliance analytics teams improving explainability confidence across automated reconciliation intelligence pipelines.'
     ],
     technologies: ['HuggingFace', 'TensorFlow', 'Python', 'FAISS', 'Pandas', 'PostgreSQL', 'Kafka', 'MLflow', 'Docker'],
   },
+  {
+    title: 'Machine Learning Engineer',
+    company: 'Cognizant',
+    location: 'India',
+    period: 'Aug 2020 - June 2022',
+    bullets: [
+      'Designed enterprise telemetry feature engineering pipelines using Python, Pandas, and PostgreSQL enabling structured transformation of enterprise monitoring datasets supporting predictive monitoring intelligence workflows.',
+      'Developed anomaly detection models using Scikit-learn improving enterprise alert prioritization precision by 24% across infrastructure analytics monitoring systems.',
+      'Implemented semantic retrieval indexing pipelines using Elasticsearch enabling contextual search across enterprise knowledge repositories supporting analytics investigation workflows.',
+      'Automated scheduled scoring workflows using Airflow orchestration pipelines enabling reproducible execution across distributed enterprise analytics environments.',
+      'Constructed ETL pipelines for ML workloads using Pandas enabling structured dataset preparation across enterprise training pipelines supporting downstream predictive models.',
+      'Integrated streaming feature enrichment pipelines using Kafka enabling near-real-time analytics signal availability across monitoring intelligence services.',
+      'Deployed containerized inference services using Docker improving deployment consistency across distributed enterprise modelserving environments.',
+      'Collaborated with platform analytics teams to translate model outputs into operational monitoring insights improving response efficiency across enterprise support workflows.'
+    ],
+    technologies: ['Python', 'Pandas', 'PostgreSQL', 'Scikit-learn', 'Elasticsearch', 'Airflow', 'Kafka', 'Docker'],
+  }
 ];
 
 const ExperienceSection = () => {

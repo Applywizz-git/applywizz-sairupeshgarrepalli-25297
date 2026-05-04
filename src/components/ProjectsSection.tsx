@@ -5,23 +5,32 @@ import { SiPython, SiOpenai, SiHuggingface, SiDocker, SiMlflow, SiTensorflow } f
 
 const projects = [
   {
-    title: 'Enterprise Document Intelligence Retrieval Platform',
-    description: 'Engineered embeddings-driven enterprise document indexing pipelines using LangChain, OpenAI API, and Pinecone vector storage enabling semantic retrieval across 120K+ structured and unstructured knowledge records supporting internal analytics discovery workflows.',
+    title: 'Clinical Knowledge Retrieval Assistant using Generative AI',
+    description: 'Developed embeddings-driven clinical document retrieval workflows using LangChain, OpenAI API, and Pinecone enabling semantic access across 95K+ healthcare guideline records supporting provider decision-support workflows. Implemented Retrieval-Augmented Generation orchestration using LlamaIndex and Azure OpenAI embeddings improving contextual clinical answer grounding accuracy by 34% across simulated care-management query scenarios. Operationalized containerized inference services using FastAPI and Docker enabling scalable deployment of clinical semantic retrieval APIs supporting distributed analytics consumption workflows.',
     icon: HiSearch,
     image: '/projects/document_intelligence.png',
-    technologies: ['LangChain', 'OpenAI API', 'Pinecone', 'LlamaIndex', 'Azure OpenAI'],
+    technologies: ['LangChain', 'OpenAI API', 'Pinecone', 'LlamaIndex', 'Azure OpenAI', 'FastAPI', 'Docker'],
     gradient: 'from-primary to-bronze',
-    highlights: ['120K+ records', '38% accuracy gain', 'Scalable APIs'],
+    highlights: ['95K+ records', '34% accuracy gain', 'FastAPI microservices'],
   },
   {
-    title: 'Financial Transaction Semantic Reconciliation Assistant',
-    description: 'Constructed transformer-based semantic entity extraction pipelines using HuggingFace Transformers, TensorFlow tokenization utilities, and FAISS embeddings improving reconciliation entity matching precision by 39% across transaction validation datasets.',
+    title: 'Financial Document Semantic Similarity Resolution Engine',
+    description: 'Engineered transformer-based semantic similarity workflows using HuggingFace Transformers and FAISS enabling contextual comparison across reconciliation document datasets improving exception resolution accuracy by 37%. Constructed vector embedding pipelines using TensorFlow tokenization utilities supporting structured semantic entity alignment across transaction validation datasets. Validated similarity scoring outputs using cosine-distance ranking improving reconciliation exception prioritization efficiency across enterprise audit intelligence workflows.',
     icon: HiLightningBolt,
     image: '/projects/reconciliation_assistant.png',
-    technologies: ['HuggingFace', 'TensorFlow', 'FAISS', 'FastAPI', 'Docker', 'MLflow'],
+    technologies: ['HuggingFace', 'FAISS', 'TensorFlow'],
     gradient: 'from-secondary to-primary',
-    highlights: ['39% precision gain', '33% faster resolution', 'Scaleable inference'],
+    highlights: ['37% accuracy gain', 'Entity alignment', 'Cosine similarity ranking'],
   },
+  {
+    title: 'Enterprise Log Intelligence Anomaly Detection Platform',
+    description: 'Designed distributed anomaly detection pipelines using Python, Scikit-learn, and PostgreSQL enabling structured identification of abnormal infrastructure behavior patterns across 80K+ enterprise monitoring events. Implemented streaming feature enrichment workflows using Kafka enabling near-real-time transformation of operational telemetry signals supporting predictive monitoring readiness across analytics pipelines. Evaluated model performance using MLflow experiment tracking improving anomaly classification consistency across enterprise alert investigation workflows.',
+    icon: HiChartBar,
+    image: '/projects/document_intelligence.png',
+    technologies: ['Python', 'Scikit-learn', 'PostgreSQL', 'Kafka', 'MLflow'],
+    gradient: 'from-primary to-bronze',
+    highlights: ['80K+ events', 'Real-time streaming', 'Anomaly detection'],
+  }
 ];
 
 const techIcons: { [key: string]: React.ElementType } = {
