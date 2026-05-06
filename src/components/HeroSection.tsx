@@ -49,7 +49,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 3 }}
             >
-              Welcome to my portfolio
+              Hi I am
             </motion.p>
 
             <motion.h1
@@ -58,8 +58,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 3.1 }}
             >
-              <span className="text-foreground">RUPESH</span>
-              <br />
+              <span className="text-foreground">RUPESH</span>{" "}
               <span className="text-gradient-gold">G</span>
             </motion.h1>
 
